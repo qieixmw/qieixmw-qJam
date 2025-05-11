@@ -8,7 +8,7 @@ For now it only supports regular ESP32's, soon there will be more support for mo
 
 ### Easiest way to install is to use my Web Flasher!
 ### Link: https://qieixmw.github.io/flasher (SOON)
-Alternatively, you can download the latest binary from releases or actions and flash locally using esptool.py.
+Alternatively, you can download the latest binary from releases and flash locally using esptool.py.
 ```sh
 esptool.py --port COM0 write_flash 0x00000 qieixmw-qJam-<device>.bin
 ```
